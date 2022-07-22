@@ -2,6 +2,9 @@
   border: solid 1px black;
   padding: 10px;
   width: auto;
-  background-color: #0e6029;
-  color: #e5ffee;
+  background-color: #e5ffee;
+}
+
+.ImgStyle {
+  width: 50%;
 }
