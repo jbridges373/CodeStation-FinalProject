@@ -1,19 +1,34 @@
 .FooterStyled {
-  border: solid 1px black;
-  background-color: #0E6029;
+  background-color: #0e6029;
   padding: 10px;
-  
   left: 0px;
   height: 100px;
   width: auto;
 }
 
 .FooterH4Styled {
-  border: solid 1px black;
+  display: flex;
+  justify-content: center;
   padding: 10px;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight:200;
+  font-weight: 500;
   font-size: 15px;
   color: #e5ffee;
+  margin-bottom: -7px;
+}
+
+.FooterLinksStyled {
+  font-size: 15px;
+  font-weight: 100;
+  color: #e5ffee;
+  
+}
+
+a:link {
+  color: #e5ffee;
+}
+a:visited {
+  color: #e5ffee;
+}
+a:hover {
+  color: #17C24F;
 }
