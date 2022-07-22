@@ -45,7 +45,6 @@ const Account = ({ setter, user }) => {
         <button
           onClick={() => {
             setter();
-            localStorage.removeItem("myToken");
           }}
         >
           <Link to="/">Log Out</Link>
