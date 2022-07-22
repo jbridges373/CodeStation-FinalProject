@@ -1,0 +1,22 @@
+.ContentFlexBox {
+  border: solid 1px black;
+  padding: 10px;
+  width: auto;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.ContentItemBox {
+  border: solid 1px black;
+  padding: 10px;
+  font-size: 20px;
+  margin: 10px;
+  margin-right: 20px;
+}
+
+/* @media (max-width: 768px) {
+    flex-direction: column;
+    color: red;
+  } */

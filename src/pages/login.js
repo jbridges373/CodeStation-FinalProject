@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Navigate } from "react-router-dom";
-import { AppStyles, ContentStyled } from "../styles/app.styles";
 import { signUp, tokenFetch } from "../utlis";
+import "../css/app.css";
 
 const Login = ({ setter, user }) => {
   const [username, setUsername] = useState();
@@ -20,8 +20,8 @@ const Login = ({ setter, user }) => {
     await signUp({ username, email, password }, setter);
   };
   return (
-    <AppStyles>
-      <ContentStyled>
+    <div className="AppStyles">
+      <div className="ContentStyled">
         {user && <Navigate to="/home" />}
         <form onSubmit={submitHandler}>
           <input
@@ -44,8 +44,8 @@ const Login = ({ setter, user }) => {
         <button onClick={() => setLogBool(!logBool)}>
           {logBool ? "Don't " : "Already "} have an account?
         </button>
-      </ContentStyled>
-    </AppStyles>
+      </div>
+    </div>
   );
 };
 

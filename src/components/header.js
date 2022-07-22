@@ -1,11 +1,11 @@
-import { HeaderStyled } from "../styles/header.styles";
-import {Header1Styled} from "../styles/app.styles"
+import "../css/header.css";
+import "../css/app.css";
 
 const Header = () => {
   return (
-    <HeaderStyled>
-      <Header1Styled>Header Banner</Header1Styled>
-    </HeaderStyled>
+    <div className="HeaderStyled">
+      <h1 className="Header1Styled">Header Banner</h1>
+    </div>
   );
 };
 
