@@ -1,7 +1,7 @@
 import { useState } from "react";
-import { AppStyles, ContentStyled } from "../styles/app.styles";
 import { updateFetch, deleteFetch } from "../utlis";
 import { Link } from "react-router-dom";
+import "../css/app.css";
 
 const Account = ({ setter, user }) => {
   const [username, setUsername] = useState();
@@ -20,8 +20,8 @@ const Account = ({ setter, user }) => {
   };
 
   return (
-    <AppStyles>
-      <ContentStyled>
+    <div classname="AppStyles">
+      <div classname="ContentStyled">
         <h1>Account</h1>
         <form onSubmit={submitHandler}>
           <h2>Update Profile</h2>
@@ -50,8 +50,8 @@ const Account = ({ setter, user }) => {
         >
           <Link to="/">Log Out</Link>
         </button>
-      </ContentStyled>
-    </AppStyles>
+      </div>
+    </div>
   );
 };
 

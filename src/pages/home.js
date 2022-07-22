@@ -1,12 +1,12 @@
-import { AppStyles, ContentStyled, Header1Styled } from "../styles/app.styles";
+import "../css/app.css";
 
 const Home = () => {
   return (
-    <AppStyles>
-      <ContentStyled>
-        <Header1Styled>Home</Header1Styled>
-      </ContentStyled>
-    </AppStyles>
+    <div classname="AppStyles">
+      <div classname="ContentStyled">
+        <div classname="Header1Styled">Home</div>
+      </div>
+    </div>
   );
 };
 

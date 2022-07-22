@@ -1,10 +1,10 @@
-import { FooterH4Styled, FooterStyled } from "../styles/footer.styles";
+import "../css/footer.css";
 
 const Footer = () => {
   return (
-    <FooterStyled>
-      <FooterH4Styled>Footer Banner</FooterH4Styled>
-    </FooterStyled>
+    <div clasname="FooterStyled">
+      <div classname="FooterH4Styled">Footer Banner</div>
+    </div>
   );
 };
 

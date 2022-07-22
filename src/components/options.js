@@ -1,6 +1,6 @@
 // list of object [{Event, Status}, {Event, Status}]
 
-import { useState } from "react";
+// import { useState } from "react";
 
 const Options = () => {
   const optionButtons = [
@@ -10,7 +10,7 @@ const Options = () => {
   ];
   //   DRY
 
-  const [status, setStatus] = useState([]);
+  // const [status, setStatus] = useState([]);
   const handleClick = () => {
     console.log();
   };
