@@ -4,7 +4,7 @@ import "../css/app.css";
 const Header = () => {
   return (
     <div className="HeaderStyled">
-      <div className="Header1Styled">Header Banner</div>
+      <h1 className="Header1Styled">Header Banner</h1>
     </div>
   );
 };
