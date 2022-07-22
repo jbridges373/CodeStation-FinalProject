@@ -57,6 +57,7 @@ export const updateFetch = async (userObj, updateObj, setter) => {
 
 export const deleteFetch = async (setter) => {
   try {
+    console.log(localStorage.getItem("myToken"));
     const res = await fetch(`${process.env.REACT_APP_REST_API}user`, {
       method: "DELETE",
       headers: { Authorization: localStorage.getItem("myToken") },
@@ -66,6 +67,7 @@ export const deleteFetch = async (setter) => {
       throw new Error(data.msg);
     } else {
       setter();
+      localStorage.removeItem("myToken");
       console.log("Deleted");
     }
   } catch (error) {
