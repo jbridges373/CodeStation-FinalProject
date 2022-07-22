@@ -1,14 +1,15 @@
 import ContentItem from "../components/contentItem";
-import { AppStyles, ContentStyled, Header1Styled } from "../styles/app.styles";
+import "../css/app.css";
+import "../css/about.css";
 
 const About = () => {
   return (
-    <AppStyles> 
-      <ContentStyled>
-        <Header1Styled>About</Header1Styled>
+    <div classname="AppStyles">
+      <div clasname="ConentFlexbox">
+        <h1>About</h1>
         <ContentItem />
-      </ContentStyled>
-    </AppStyles>
+      </div>
+    </div>
   );
 };
 

@@ -1,4 +1,3 @@
-import { AppStyles } from "./styles/app.styles";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Navbar from "./components/navbar";
 
@@ -12,10 +11,12 @@ import Footer from "./components/footer";
 import { useState } from "react";
 import Account from "./pages/account";
 
+import "./css/app.css";
+
 const App = () => {
   const [user, setUser] = useState();
   return (
-    <AppStyles>
+    <div className="AppStyles">
       <BrowserRouter>
         <Header />
         {user && <Navbar />}
@@ -31,7 +32,7 @@ const App = () => {
         </Routes>
         <Footer />
       </BrowserRouter>
-    </AppStyles>
+    </div>
   );
 };
 

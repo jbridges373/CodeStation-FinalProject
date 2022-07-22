@@ -1,4 +1,5 @@
-import { ContentFlexBox, ContentItemBox } from "../styles/about.styles";
+// import { ContentFlexBox, ContentItemBox } from "../styles/about.styles";
+import "../css/about.css";
 
 const ContentItem = () => {
   const theGang = [
@@ -21,11 +22,15 @@ const ContentItem = () => {
     "Liz",
   ];
   return (
-    <ContentFlexBox>
+    <div className="ContentFlexBox">
       {theGang.map((gang, i) => {
-        return <ContentItemBox key={i}>{gang}</ContentItemBox>;
+        return (
+          <div className="ContentItemBox" key={i}>
+            {gang}
+          </div>
+        );
       })}
-    </ContentFlexBox>
+    </div>
   );
 };
 

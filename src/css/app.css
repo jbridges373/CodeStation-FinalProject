@@ -1,0 +1,22 @@
+.AppStyles {
+  text-align: center;
+  border: solid 1px black;
+  padding: 10px;
+  width: auto;
+}
+
+.ContentStyled {
+  text-align: center;
+  min-height: 700px;
+}
+
+.Header1Styled {
+  border: solid 1px black;
+  padding: 10px;
+}
+
+.FlexBoxStyled {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
