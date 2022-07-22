@@ -6,7 +6,7 @@ const About = () => {
   return (
     <div className="AppStyles">
       <div className="ConentFlexbox">
-        <h1>About</h1>
+        <h1 className="Header1Styled">About</h1>
         <ContentItem />
       </div>
     </div>

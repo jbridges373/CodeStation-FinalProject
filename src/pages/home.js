@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <div className="AppStyles">
       <div className="ContentStyled">
-        <div className="Header1Styled">Home</div>
+        <h1 className="Header1Styled">Home</h1>
       </div>
     </div>
   );

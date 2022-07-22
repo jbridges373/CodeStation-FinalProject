@@ -14,7 +14,7 @@ const Events = ({ setter, user }) => {
   return (
     <div>
       {/* <Navbar user={user} setter={setter} /> */}
-      <h1>Events {user}</h1>
+      <h1 className="Header1Styled">Events {user}</h1>
       <div>
         <div>
           {contests.map((contest, i) => {

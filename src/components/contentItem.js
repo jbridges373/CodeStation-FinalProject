@@ -12,14 +12,6 @@ const ContentItem = () => {
     "John",
     "James",
     "Abdelbar",
-    "Benny",
-    "Eddie",
-    "Olly",
-    "Alex K",
-    "Safwan",
-    "Keisha",
-    "Josh",
-    "Liz",
   ];
   return (
     <div className="ContentFlexBox">
