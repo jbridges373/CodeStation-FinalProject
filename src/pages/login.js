@@ -20,8 +20,8 @@ const Login = ({ setter, user }) => {
     await signUp({ username, email, password }, setter);
   };
   return (
-    <div classname="AppStyles">
-      <div classname="ContentStyled">
+    <div className="AppStyles">
+      <div className="ContentStyled">
         {user && <Navigate to="/home" />}
         <form onSubmit={submitHandler}>
           <input

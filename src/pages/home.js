@@ -2,9 +2,9 @@ import "../css/app.css";
 
 const Home = () => {
   return (
-    <div classname="AppStyles">
-      <div classname="ContentStyled">
-        <div classname="Header1Styled">Home</div>
+    <div className="AppStyles">
+      <div className="ContentStyled">
+        <div className="Header1Styled">Home</div>
       </div>
     </div>
   );

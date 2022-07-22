@@ -5,11 +5,11 @@ const Navbar = () => {
   const navbarList = ["Home", "Events", "About", "Account"];
 
   return (
-    <div classname="NavbarStyled">
+    <div className="NavbarStyled">
       {navbarList.map((navbarItem, i) => {
         let path = "/" + navbarItem;
         return (
-          <div classname="NavItemStyled">
+          <div className="NavItemStyled">
             <Link to={path} key={i}>
               {navbarItem}
             </Link>

@@ -20,8 +20,8 @@ const Account = ({ setter, user }) => {
   };
 
   return (
-    <div classname="AppStyles">
-      <div classname="ContentStyled">
+    <div className="AppStyles">
+      <div className="ContentStyled">
         <h1>Account</h1>
         <form onSubmit={submitHandler}>
           <h2>Update Profile</h2>

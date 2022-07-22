@@ -3,8 +3,8 @@ import "../css/app.css";
 
 const Header = () => {
   return (
-    <div classname="HeaderStyled">
-      <div classname="Header1Styled">Header Banner</div>
+    <div className="HeaderStyled">
+      <div className="Header1Styled">Header Banner</div>
     </div>
   );
 };

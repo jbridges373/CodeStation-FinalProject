@@ -4,8 +4,8 @@ import "../css/about.css";
 
 const About = () => {
   return (
-    <div classname="AppStyles">
-      <div clasname="ConentFlexbox">
+    <div className="AppStyles">
+      <div className="ConentFlexbox">
         <h1>About</h1>
         <ContentItem />
       </div>
